@@ -1,1 +1,2 @@
-# emberguide
+# Ember Guide
+
