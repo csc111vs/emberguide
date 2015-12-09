@@ -1,0 +1,28 @@
+Routes:
+Ember router is a hirarchical state machine.
+The REST adapter allows your store to communicate with an HTTP server by transmitting JSON via XHR
+In Ember Data a Serializer is used to serialize and deserialize records when they are transferred in and out of an external source. This process involves normalizing property names, transforming attribute values and serializing relationships.
+Ember apps built on URLs, Components, Services
+Components [views and controllers are wrapped into Components]
+Services[eg: ember-data] different components can talk to data but it doesn't live on any of the component itself.
+URLs are driving the content on the page.
+Services and Components:
+Services don't exist on the page,components can be subscribed to service and talk to the specific service required.
+Web Components- implements events/hooks/actions
+
+Examples
+chrisgame/ember-by-example
+ember new select2
+bower install --save-dev select2
+bower install --save-dev bootstrap
+bower install --save-dev select2-bootstrap
+npm install --save-dev broccoli-merge-trees
+npm install --save-dev broccoli-static-compile
+import files: select2.js,css,
+select2Imgs in /assets
+module.exports = mergeTrees([app.toTree(), select2Imgs]);
+
+
+References:
+Ember CLI - eco system of add ons - emberobserver.com, emberaddons.com
+
