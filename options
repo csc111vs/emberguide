@@ -1,0 +1,21 @@
+Command Options:
+ember version
+localhost:../tests
+tools: ember command line/ 
+tomster, ember inspectet
+generate acceptance test 
+ember g acceptance-test index
+creates acceptance/index-test.js file
+assert.ok(find(':contains(play hangmean)').length, 'play hangman');
+using block params in handlebars.
+ember g component --pod hangman-letter	
+Ember components will follow Web components standards in the future.
+bower install neat --save
+ember install ember-cli-bourbon, sass in two commands
+ember weekly
+emberwatch
+embercli101
+Model Mapping in Ember.js,
+
+Note making,
+vim motions: raw.github.com/shawncplus/vim-classes/master/expert-1.md
